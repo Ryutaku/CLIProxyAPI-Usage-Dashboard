@@ -48,17 +48,6 @@ You can also open the app directly through `static/usage.html`.
 - Use the SQLite export button if you want a durable backup.
 - If your browser blocks `file://` requests, serve this folder with any static web server and open the local URL instead.
 
-Example local static server:
-
-```powershell
-python -m http.server 8080
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8080/usage.html
-```
 
 ## Security
 
