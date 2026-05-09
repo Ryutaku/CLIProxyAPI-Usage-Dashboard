@@ -48,17 +48,6 @@ http://127.0.0.1:8317/v0/management
 - 如需长期备份，请使用 SQLite 导出功能。
 - 如果浏览器阻止 `file://` 请求，可以用任意静态 Web 服务器托管这个目录，再打开本地 URL。
 
-本地静态服务器示例：
-
-```powershell
-python -m http.server 8080
-```
-
-然后打开：
-
-```text
-http://127.0.0.1:8080/usage.html
-```
 
 ## 安全
 
